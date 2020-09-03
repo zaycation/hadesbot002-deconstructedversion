@@ -4,7 +4,6 @@ module.exports = {
 	description: 'Prune up to 500 messages.',
 	execute(message, args) {
 		const amount = parseInt(args[0]) + 1;
-		return message.reply('hella shit jus got deleted bruv 0.o');
 
 		if (isNaN(amount)) {
 			return message.reply('that doesn\'t seem to be a valid number.');
@@ -16,5 +15,7 @@ module.exports = {
 			console.error(err);
 			message.channel.send('there was an error trying to prune messages in this channel!');
 		});
+		
+		return message.reply('hella shit jus got deleted bruv 0.o');
 	},
 };
