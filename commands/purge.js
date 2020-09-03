@@ -16,6 +16,6 @@ module.exports = {
 			message.channel.send('there was an error trying to prune messages in this channel!');
 		});
 		
-		return message.reply('hella shit jus got deleted bruv 0.o');
+		return message.reply('hella shit jus got deleted 0.o');
 	},
 };
