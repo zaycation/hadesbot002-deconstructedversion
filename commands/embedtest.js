@@ -1,14 +1,10 @@
-// at the top of your file
 const Discord = require('discord.js');
 
 module.exports = {
     name: 'embedtest',
     description: 'Command created to test embed functionality of Hades',
-    args: true,
-    cooldown: 2,
-    execute(message, args) {
+    execute(message, bot, args) {
 
-        // inside a command, event listener, etc.
         const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Some title')
