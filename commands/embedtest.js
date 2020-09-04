@@ -4,6 +4,7 @@ module.exports = {
     execute(message) {
         message.channel.send({embed: {
             color: 15844367,
+            title: 'embedtest',
             description: 'Embed Testing ~ Can you hear me?'
           }});
     },
