@@ -15,8 +15,6 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('Ready!');
-	message.channel.send('Back up int this bitch - what it do');
-
 });
 
 client.on('message', async message => {
