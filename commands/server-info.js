@@ -39,6 +39,6 @@ module.exports = {
 					text: 'DM zsh#7219 for any development inquiries or bug requests'
 				}
 			}
-		});
+		}); channel.send("this `supports` __a__ **subset** *of* ~~markdown~~ 😃 ```js\nfunction foo(bar) {\n  console.log(bar);\n}\n\nfoo(1);```", { embed });
 	},
 };
