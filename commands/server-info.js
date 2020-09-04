@@ -36,7 +36,7 @@ module.exports = {
 			footer: {
 				icon_url: client.user.avatarURL,
 				text: 'DM zsh#7219 for any development inquiries or bug requests'
-			}
+			},
           }});
     },
 };
